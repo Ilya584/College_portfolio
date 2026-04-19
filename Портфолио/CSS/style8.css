@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&display=swap');
+
+body{
+ font-family: "Comfortaa", sans-serif;
+font-optical-sizing: auto;
+font-weight: 400;
+margin: 0;
+padding: 0; 
+
+
+}
+
+a{
+    text-decoration: none;
+   
+}
+li{
+    list-style-type: none;
+    padding: 10px;
+    
+}
+ul{
+    margin:0px;
+    padding: 0px;
+}
+
+img{
+    width: 100%;
+}
+video{
+    width: 100%;
+}
+nav{
+    margin-left: 270px;
+    margin-right: 270px;
+    padding-top:20px ;
+    padding-bottom:20px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+header{
+    background-color: rgb(238, 238, 238);
+    
+}
+
+
+.cont_img_main{
+   
+width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cont_img_main img{
+    height: 200px;
+    width: 1200px;
+}
+
+
+.right ul{
+    display: flex;
+     white-space: nowrap;
+     justify-content: end;
+    
+}
+
+.right ul li:first-child{
+    color: rgb(204, 0, 0);
+}
+
+.left ul{
+    display: flex;
+     white-space: nowrap;
+     justify-content: start;
+}
+
+.main_text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main_text h1{
+   width: 1000px;
+    text-align: center;
+}
+
+.big_img_cont{
+    display: flex;
+    justify-content: center;
+    padding: 0px 100px;
+}
+.cont_img{
+    display: flex;
+    text-align: center;
+    align-items: center; 
+    flex-flow: column;
+    border: 2px solid;
+    margin: 0px 75px;
+    /* height: 250px; */
+    padding: 10px;
+    border-radius: 20px;
+}
+.cont_img img{
+    
+    width: 250px;
+    height: 200px;
+}
+
+.text_i{
+    display: flex;
+    justify-content: center;
+    font-style: italic;
+    margin: 30px;
+}
+
+.video_container{
+    
+display: flex;
+justify-content: center;
+}
+.video_blox{
+    width: 500px;
+}
+
+footer{
+    background-color: rgb(238, 238, 238);
+}
+
+i{
+     font-size: 40px;
+     color: rgb(238, 238, 238);
+}
+.foot{
+    
+    display: inline-flex;
+    
+}
+.ico{
+    display: flex;
+    position: absolute;
+    left: 100px; 
+}
+.ico div{
+    background-color: rgb(109, 120, 130);
+    border-radius: 50%;
+    padding: 5px;
+    margin: 0px;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.foot_text{
+padding: 35px 0px 20px 0px;
+}
